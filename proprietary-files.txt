@@ -54,24 +54,24 @@ vendor/etc/vintf/manifest/bluetooth_hci.xml|13a5f20e77b01b8f78b916c6efbb4cf6bafa
 vendor/etc/vintf/manifest/bluetooth_sar.xml|6ecdea14f258c198ec1234d966c410beb291236b
 vendor/etc/vintf/manifest/bttpi-saidl.xml|a49eea4c62be9c856dfa842db8f08d2a87ff21dd
 vendor/etc/vintf/manifest/manifest_btaudiocoreservices_qti.xml|99c1c1cef69952852d30be97dd58067471825cbc
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|33fa5dfad99e1de144301e417bb603dd38c77570
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|fad73e0a386ca16321a0851ce5750cb4eaa86380
 vendor/lib64/hw/android.hardware.bluetooth@aidl-impl-qti.so|53385c0413eb72788ce33a908e42c33622c35eab
 vendor/lib64/hw/mbedtls_qti.so|acefbe60ccc59621ae3b1a7c880979c9672c5997
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@aidl-impl.so|b930d1d7b829b8bdcbabeeeb8e2429f150a15269
 vendor/lib64/hw/vendor.qti.hardware.bttpi-impl.so|7feca794a783e37f986503d8c72d494ee6acae19
-vendor/lib64/libbt-hidlclient.so|18bee66c2f53d8889a9f400c45b45d200f16239e
+vendor/lib64/libbt-hidlclient.so|2d055a1245fcf33fb7ea5a9132732d0f902c2963
 vendor/lib64/libbtnv.so|c002576d44dc559b688bf1d78c5bf627720b4875
-vendor/lib64/libsoc_helper.so|fe54074bf6d9e37cd2c8c076a43e74f09526ba8a
+vendor/lib64/libsoc_helper.so|f7750e0a7f2b9426f493e896df04153122a16ccf
 vendor/lib64/vendor.qti.hardware.bluetooth_sar-V1-ndk.so|50c9ea0a88b168727957fb88e682c7a2afaed779
 vendor/lib64/vendor.qti.hardware.bttpi-V3-ndk.so|856786a9216b9679604906cbc3875dc2f0f64660
 
 # Bluetooth (A2DP) - from PDX257_GLOBALEEA-A4_USER_72.1.A.2.184
 vendor/lib64/hw/android.hardware.bluetooth.audio-impl-qti.so|f7493d5079e037f101e5b6499b0d039b71536394
-vendor/lib64/hw/android.hardware.bluetooth.audio_sw.so;DISABLE_DEPS|87a698117c392c2cc30ac012a56d25da734cc546
-vendor/lib64/btaudio_offload_if.so|005226ff201c489927125121f456321d7ed67c50
-vendor/lib64/libbluetooth_audio_session_aidl_qti.so|7f768cf5d445e190e15bdb2b5250f6375b27a921
-vendor/lib64/libbluetooth_audio_session_qti.so|daf4f92df85699d34f16cac19753be91f13e6a02
-vendor/lib64/libbluetooth_audio_session_qti_2_1.so|1c2e6518d0df6fbb4698cfe9bf7fc9d701183191
+vendor/lib64/hw/android.hardware.bluetooth.audio_sw.so;DISABLE_DEPS|765c54a411d07ac72b29f78f1f179a6503027e93
+vendor/lib64/btaudio_offload_if.so|7d81f173716539e1b646bb461dc2f3ef0bfbe578
+vendor/lib64/libbluetooth_audio_session_aidl_qti.so|13ab3390ed1215efa8fd5c511190b3c46a817917
+vendor/lib64/libbluetooth_audio_session_qti.so|12a66ea9c5d517824f0259ef936a9dc7212ed73b
+vendor/lib64/libbluetooth_audio_session_qti_2_1.so|d77638eb1fba1a730030cb623aa03217fde77030
 
 # CACert
 vendor/app/CACertService/CACertService.apk
@@ -240,7 +240,6 @@ system_ext/lib64/libdpmframework.so
 system_ext/lib64/libdpmtcm.so
 system_ext/lib64/vendor.qti.hardware.dpmaidlservice-V1-ndk.so
 system_ext/lib64/vendor.qti.hardware.dpmservice@1.0.so
-system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk
 vendor/bin/vendor.dpmd
 vendor/etc/dpm_vndr/vendor.dpm.conf
 vendor/etc/init/vendor.dpmd.rc
@@ -663,7 +662,6 @@ vendor/lib64/vendor.qti.qspmhal-V1-ndk.so
 vendor/lib64/vendor.qti.qspmhal-impl.so
 
 # RIL - UIM
-product/app/uimgbaservice/uimgbaservice.apk
 product/etc/permissions/UimGba.xml
 product/etc/permissions/UimGbaManager.xml
 product/etc/permissions/UimService.xml
