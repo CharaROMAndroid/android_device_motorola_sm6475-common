@@ -68,6 +68,7 @@ vendor/lib64/vendor.qti.hardware.bttpi-V3-ndk.so|856786a9216b9679604906cbc3875dc
 # Bluetooth (A2DP) - from PDX257_GLOBALEEA-A4_USER_72.1.A.2.184
 vendor/lib64/hw/android.hardware.bluetooth.audio-impl-qti.so|f7493d5079e037f101e5b6499b0d039b71536394
 vendor/lib64/hw/android.hardware.bluetooth.audio_sw.so;DISABLE_DEPS|765c54a411d07ac72b29f78f1f179a6503027e93
+vendor/lib64/vendor.qti.hardware.bluetooth.audio-V2-ndk.so;EXTRACT_ONLY|4b25a54e4abf03a6dc8059668c43b603b80d3c03
 vendor/lib64/btaudio_offload_if.so|7d81f173716539e1b646bb461dc2f3ef0bfbe578
 vendor/lib64/libbluetooth_audio_session_aidl_qti.so|13ab3390ed1215efa8fd5c511190b3c46a817917
 vendor/lib64/libbluetooth_audio_session_qti.so|12a66ea9c5d517824f0259ef936a9dc7212ed73b
