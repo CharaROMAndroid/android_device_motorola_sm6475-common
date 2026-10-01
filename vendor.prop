@@ -319,3 +319,6 @@ wifi.aware.interface=wifi-aware0
 
 # ZRAM
 ro.vendor.zram.swapon=true
+
+# Data
+ro.vendor.use_data_netmgrd=true
