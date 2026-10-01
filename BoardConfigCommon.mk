@@ -263,3 +263,6 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # inherit from the proprietary version
 include vendor/motorola/sm6475-common/BoardConfigVendor.mk
+
+# Data IPA (stock prebuilts)
+USE_DEVICE_SPECIFIC_DATA_IPA_CFG_MGR := true
