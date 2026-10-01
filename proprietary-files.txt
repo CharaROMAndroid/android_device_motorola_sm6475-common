@@ -1137,3 +1137,17 @@ vendor/lib64/libwfduibcsrcinterface_vendor.so
 vendor/lib64/libwfdutils_proprietary.so
 vendor/lib64/vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk.so;MODULE_SUFFIX=_vendor
 vendor/lib64/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so
+
+# Servicetracker
+vendor/bin/hw/vendor.qti.hardware.servicetrackeraidl-service
+vendor/etc/init/vendor.qti.hardware.servicetrackeraidl-service.rc
+vendor/etc/vintf/manifest/vendor.qti.hardware.servicetrackeraidl-service.xml
+vendor/lib64/hw/vendor.qti.hardware.servicetrackeraidl-impl.so
+
+# IPACM (stock)
+vendor/bin/ipacm
+vendor/lib64/libipanat.so
+vendor/lib64/liboffloadhal.so
+vendor/etc/IPACM_cfg.xml
+vendor/etc/IPACM_Filter_cfg.xml
+vendor/etc/init/ipacm.rc
